@@ -7,7 +7,7 @@ from setuptools.command.test import test
 
 
 def readme():
-    with open('README.md') as f:
+    with open('README.rst') as f:
         return f.read()
 
 
@@ -21,7 +21,7 @@ setup(
     name='tit',
     description='Better titulky.com search',
     long_description=readme(),
-    version='0.0.1',
+    version='0.0.2',
     url='http://github.com/honzajavorek/tit',
     author='Honza Javorek',
     author_email='mail@honzajavorek.cz',
