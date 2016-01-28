@@ -3,6 +3,9 @@ tit
 
 Better `titulky.com <http://www.titulky.com/>`__ search.
 
+.. image:: https://travis-ci.org/honzajavorek/tit.svg?branch=master
+    :target: https://travis-ci.org/honzajavorek/tit
+
 Installation
 ------------
 
