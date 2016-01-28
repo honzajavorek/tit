@@ -5,7 +5,8 @@ python:
   - "3.4"
   - "3.5"
 install:
-  - "pip install -e ."
+  - "pip install ."
+  - "pip install -r requirements-dev.txt"
 script:
-  - "python setup.py test"
+  - "flake8 tit.py setup.py"
   - "tit --help"  # testing it's executable...
